@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+.timer {
+  font-size: 1.5em;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

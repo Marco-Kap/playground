@@ -5,19 +5,15 @@ import "./App.css";
 
 function App() {
   const d = new Date();
-  const hours = d.getHours();
-  const minutes = d.getMinutes();
-  const seconds = d.getSeconds();
+  const hours = d.getHours().toString().padStart(2, "0");
+  const minutes = d.getMinutes().toString().padStart(2, "0");
+  const seconds = d.getSeconds().toString().padStart(2, "0");
 
   const [count, setCount] = useState(0);
-  const [hour, sethour] = useState(0);
-  const [minute, setMinute] = useState(0);
-  const [second, setSecond] = useState(0);
+  const [time, setTime] = useState("");
 
   function tick() {
-    sethour(hours);
-    setMinute(minutes);
-    setSecond(seconds);
+    setTime(hours + ":" + minutes + ":" + seconds);
   }
   setInterval(tick, 1000);
 
@@ -25,14 +21,6 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
       <div id="canvas"></div>
 
       <div className="card">
@@ -46,9 +34,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="">
-        Die Zeit ist {hour}:{minute}:{second}
-      </p>
+      <p className="timer">Die Zeit ist {time}</p>
     </>
   );
 }
