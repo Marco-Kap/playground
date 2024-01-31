@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -21,20 +19,27 @@ function App() {
 
   return (
     <>
+      <div>
+        <button>
+          <a href="https://reactjs.org">CV</a>
+        </button>
+        <button>
+          <a href="https://vitejs.dev">Portfolio</a>
+        </button>
+      </div>
       <div id="canvas"></div>
-
       <div className="card">
-        <button onClick={() => setCount((count) => count - 1)}>
-          decrement count currently: {count}
+        <button on onClick={() => setCount((count) => count - 1)}>
+          decrement count
         </button>
         <p>
+          <div>{count}</div>
           <button onClick={() => setCount((count) => count + 1)}>
-            increment count currently: {count}
+            increment count
           </button>
-          Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className="timer">Die Zeit ist {time}</p>
+      <p className="timer">The Time is {time}</p>
     </>
   );
 }
