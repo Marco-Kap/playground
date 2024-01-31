@@ -15,12 +15,7 @@ export default function Counter() {
       <button onMouseDown={decrementCount()}>decrement count</button>
       <p>
         <div>{count}</div>
-        <button
-          onMouseDown={incrementCount()}
-          onClick={() => setCount((count) => count + 1)}
-        >
-          increment count
-        </button>
+        <button onMouseDown={incrementCount()}>increment count</button>
       </p>
     </div>
   );
