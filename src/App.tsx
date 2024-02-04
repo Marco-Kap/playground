@@ -1,23 +1,19 @@
 import "./App.css";
-import Counter from "./components/Counter";
-import Clock from "./components/Clock";
+import { Routes, Route } from "react-router-dom";
+import Portfolio from "./Portfolio";
+import CV from "./components/CV";
+import Layout from "./components/Layout";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
     <>
-      <div>
-        <button>
-          <a href="#">CV</a>
-        </button>
-        <button>
-          <a href="/components/Portfolio.tsx">Portfolio</a>
-        </button>
-      </div>
-      <div id="canvas"></div>
-      <div className="landing">
-        <Counter />
-        <Clock />
-      </div>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="cv" element={<CV />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 }
