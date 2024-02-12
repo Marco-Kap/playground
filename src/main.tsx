@@ -1,28 +1,34 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-//import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
-import { BrowserRouter } from "react-router-dom";
-//import Root from "./routes/root";
-import App from "./App";
+import * as ReactDOM from "react-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Root />,
-//   },
-// ]);
-// //@ts-expect-error ts(2322): Type 'string' is not assignable to type 'number'.
-// ReactDOM.createRoot(document.getElementById("root")).render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>,
-// );
+import Root from "./routes/Root";
+import ErrorPage from "./components/Error";
+import CV from "./components/CV";
+import NotFound from "./components/NotFound";
+import Portfolio from "./Portfolio";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <NotFound />,
+  },
+  {
+    path: "resume",
+    element: <CV />,
+    errorElement: <NotFound />,
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
+    errorElement: <NotFound />,
+  },
+]);
+
+//@ts-expect-error
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
