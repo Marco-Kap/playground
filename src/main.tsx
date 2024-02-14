@@ -1,17 +1,15 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-import Root from "./routes/Root";
-import ErrorPage from "./components/Error";
 import CV from "./components/CV";
 import NotFound from "./components/NotFound";
-import Portfolio from "./Portfolio";
+import Portfolio from "./components/Portfolio";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <App />,
     errorElement: <NotFound />,
   },
   {
@@ -26,7 +24,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-//@ts-expect-error
+//@ts-expect-error ts(2339)
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
