@@ -13,12 +13,21 @@ export default function MyNav() {
       expand="lg"
       className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="mail:bewerbung.marco-kappeller@gmx.de">
+        <Navbar.Collapse
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          id="responsive-navbar-nav">
+          <Nav>
+            <Nav.Link className="" href="#resume">
+              Resume
+            </Nav.Link>
+            <Nav.Link
+              className=""
+              href="mailto:marco-kappeller.bewerbunggmx.de">
               Get in touch
             </Nav.Link>
           </Nav>

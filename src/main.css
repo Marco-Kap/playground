@@ -12,3 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  background-color: #242424;
+  overflow-x: hidden;
+  color: #fffff0;
+}
+div {
+  color: #fffff0;
+  background-color: #242424;
+}
