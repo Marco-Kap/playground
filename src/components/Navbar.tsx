@@ -22,7 +22,7 @@ export default function MyNav() {
           }}
           id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link className="" href="#resume">
+            <Nav.Link className="" href="/resume">
               Resume
             </Nav.Link>
             <Nav.Link
@@ -31,12 +31,6 @@ export default function MyNav() {
               Get in touch
             </Nav.Link>
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
