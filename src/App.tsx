@@ -1,14 +1,25 @@
-import "./main.css";
-import Navbar from "./components/Navbar";
-import AppContent from "./components/AppContent";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <AppContent />
-      <Navbar />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+root.render(<App />);
