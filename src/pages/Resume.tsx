@@ -1,9 +1,14 @@
-import { Container } from "react-bootstrap";
-
 export default function Resume() {
   return (
-    <Container>
-      <img src="./../assets/Bewerbungsfoto.jpg"></img>
-    </Container>
+    <>
+      <img
+        src="src/assets/bewerbungsfoto-quadratisch.jpg"
+        width={420}
+        style={{ borderRadius: "50%" }}
+        alt="bewerbungsfoto"
+      />
+
+      <h2></h2>
+    </>
   );
 }

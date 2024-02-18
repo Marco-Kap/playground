@@ -24,13 +24,22 @@ export default function Layout() {
             }}
             id="responsive-navbar-nav">
             <Nav>
-              <Link className="" to="/resume">
-                Resume
-              </Link>
-              {"  "}
-              <Link className="" to="mailto:marco-kappeller.bewerbung@gmx.de">
-                Get in touch
-              </Link>
+              <Nav.Link>
+                <Link className="" to="/resume">
+                  {/* Resume */}
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link className="" to="/">
+                  {/* Home */}
+                </Link>
+              </Nav.Link>
+
+              <Nav.Link>
+                <Link className="" to="/portfolio">
+                  {/* Portfolio */}
+                </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
