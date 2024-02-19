@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,8 +16,16 @@ body {
   background-color: #242424;
   overflow-x: hidden;
   color: #fffff0;
-}
+} /*
+overwrites other styles with react boostrap rules
 div {
   color: #f9f9f9;
   background-color: #242424;
+}*/
+.my-card {
+  background-color: #474747;
+  width: "18rem";
+  border-radius: 2%;
+  border-color: #ee7c11; /*nice purple #5a11ee;*/
+  margin-bottom: 1em;
 }

@@ -14,30 +14,29 @@ export default function Layout() {
         data-bs-theme="dark"
         expand="lg"
         className="bg-body-tertiary">
-        <Container>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Container className=" bg-body-tertiary">
+          <Navbar.Toggle
+            className=" bg-body-tertiary"
+            aria-controls="responsive-navbar-nav"
+          />
           <Navbar.Collapse
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-            id="responsive-navbar-nav">
-            <Nav>
+            className=" bg-body-tertiary"
+            id="responsive-navbar-nav"
+            style={{ justifyContent: "center" }}>
+            <Nav className=" bg-body-tertiary">
               <Nav.Link>
-                <Link className="" to="/resume">
-                  {/* Resume */}
+                <Link className="" to="/">
+                  Resume
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link className="" to="/">
-                  {/* Home */}
+                  Home
                 </Link>
               </Nav.Link>
-
               <Nav.Link>
-                <Link className="" to="/portfolio">
-                  {/* Portfolio */}
+                <Link className="" to="/">
+                  Portfolio
                 </Link>
               </Nav.Link>
             </Nav>

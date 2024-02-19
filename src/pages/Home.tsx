@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
   let width = "100%";
@@ -49,23 +49,28 @@ export default function Home() {
   ];
 
   const canvasRef = useRef(null);
-  console.log(characters);
-
+  /*
   useEffect(() => {
     const canvas = canvasRef.current;
-    //@ts-expect-error
     const ctx = canvas.getContext("2d");
 
-    // Draw on the canvas
-    ctx.strokeStyle = "blue";
-    //ctx.fillRect(10, 10, 50, 50);
-    //ctx.strokeText(characters[0], 10, 50);
+    //draw everthing in character array
+    characters.map((character) => {
+
+        ctx.fillStyle = "red";
+        ctx.font = "50px serif";
+        ctx.fillText(character, 120, 120);
+
+    });
+
+    ctx.fillStyle = "blue";
+    ctx.fillRect(10, 10, 100, 100);
 
     // Clean up
     return () => {
       // Cleanup code, if necessary
     };
-  }, []); // Empty dependency array means this effect runs once on mount
+  }, []); // Empty dependency array means this effect runs once on mount */
 
   return (
     <>
@@ -73,7 +78,7 @@ export default function Home() {
       <div className="row ms-auto">
         <div className="col-md-4">
           <img
-            src="src\assets\monkey2.png"
+            src="src\assets\server-farm-monkey-repair-644x644.jpg"
             width={width}
             height={height}
             alt="monkey"
