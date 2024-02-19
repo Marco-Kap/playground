@@ -1,10 +1,12 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 
 export default function Home() {
   let width = "100%";
   let height = "auto";
 
-  const characters = [
+  const canvasRef = useRef(null);
+
+  /* const characters = [
     "ζ",
     "δ",
     "μ",
@@ -47,9 +49,7 @@ export default function Home() {
     "ʭ",
     "ʆ",
   ];
-
-  const canvasRef = useRef(null);
-  /*
+  
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
@@ -88,6 +88,7 @@ export default function Home() {
           <h2 id="h1">Still working on the site</h2>
           <h2 id="h2">It´ll look awesome later, really</h2>
           <h2 id="h3">I promise</h2>
+          <h2>new day, new monkey</h2>
         </div>
       </div>
     </>
