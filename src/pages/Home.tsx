@@ -5,8 +5,8 @@ export default function Home() {
   let height = "auto";
 
   const canvasRef = useRef(null);
-
-  /* const characters = [
+  /*
+  const characters = [
     "ζ",
     "δ",
     "μ",
@@ -49,18 +49,16 @@ export default function Home() {
     "ʭ",
     "ʆ",
   ];
-  
+
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
     //draw everthing in character array
     characters.map((character) => {
-
-        ctx.fillStyle = "red";
-        ctx.font = "50px serif";
-        ctx.fillText(character, 120, 120);
-
+      ctx.fillStyle = "red";
+      ctx.font = "50px serif";
+      ctx.fillText(character, 120, 120);
     });
 
     ctx.fillStyle = "blue";

@@ -25,19 +25,24 @@ export default function Layout() {
             style={{ justifyContent: "center" }}>
             <Nav className=" bg-body-tertiary">
               <Nav.Link>
-                <Link className="" to="/">
+                <Link className="link" to="/resume">
                   Resume
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link className="" to="/">
+                <Link className="link" to="/">
                   Home
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link className="" to="/">
+                <Link className="link" to="/">
                   Portfolio
                 </Link>
+              </Nav.Link>
+              <Nav.Link
+                className="link"
+                href="mailto:marco-kappeller.bewerbung@gmx.de">
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
