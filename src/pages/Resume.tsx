@@ -1,4 +1,5 @@
 import { Card, Container, Image, Row, Col } from "react-bootstrap";
+import Badge from "../components/Badge";
 
 export default function Resume() {
   return (
@@ -18,7 +19,6 @@ export default function Resume() {
           </Card>
         </Col>
       </Row>
-
       <h2 style={{}}>Berufserfahrung</h2>
       <hr></hr>
       <Card className="my-card">
@@ -62,6 +62,7 @@ export default function Resume() {
               <div></div>
             </div>
           </Card.Text>
+          <Badge bg="red" content="hallp" />
         </Card.Body>
       </Card>
       <Card className="my-card">
@@ -85,11 +86,23 @@ export default function Resume() {
                 <p>Meine Aufgaben umfassten das Folgende:</p>
               </div>
               <div className="col-md-6">
+                <div>
+                  <p></p>
+                </div>
                 <ul>
-                  <li></li>
-                  <li></li>
+                  <li>
+                    Umsetzung der Web Uontent Accessibility Guidelines auf AA
+                    Niveau
+                  </li>
+                  <li>
+                    Erweiterung von Daicy um Impf- und Genesenenzertifikate
+                  </li>
                   <li>Erstellen einer Wordpress Seite</li>
-                  <li></li>
+                  <li>Unterstützung bei Codereviews</li>
+                  <li>
+                    Content Management für die Webseite von Daicy mittels
+                    October UMS
+                  </li>
                 </ul>
               </div>
               <div>
@@ -103,13 +116,104 @@ export default function Resume() {
       <hr></hr>
       <Card className="my-card">
         <Card.Body>
-          <Card.Title className="d-flex justify-content-between">
-            <div>
-              <p>2019/02</p>
-            </div>{" "}
-            2020
+          <Card.Title className="row">
+            <div className="row">
+              <div className="col-md-6">
+                <p>2020</p>
+              </div>
+              <div className="col-md-5">
+                <p className="fs-2">Fachinformatiker Anwendungsentwicklung</p>
+                <p className="fs-4">Deutsche Angestellten Akademie, Marburg</p>
+              </div>
+            </div>
           </Card.Title>
-          <Card.Text></Card.Text>
+          <Card.Text>
+            <div className="row">
+              <div className="col-md-6">
+                <p></p>
+              </div>
+              <div className="col-md-6">
+                <div>
+                  <p></p>
+                </div>
+                <ul>
+                  <li>
+                    Content Management für die Webseite von Daicy mittels
+                    October UMS
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card className="my-card">
+        <Card.Body>
+          <Card.Title className="row">
+            <div className="row">
+              <div className="col-md-6">
+                <p>2018</p>
+              </div>
+              <div className="col-md-5">
+                <p className="fs-2">Soziologie, Kein Abschluß</p>
+                <p className="fs-4">Philipps Universität, Marburg</p>
+              </div>
+            </div>
+          </Card.Title>
+          <Card.Text>
+            <div className="row">
+              <div className="col-md-6">
+                <p></p>
+              </div>
+              <div className="col-md-6">
+                <div>
+                  <p></p>
+                </div>
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+          </Card.Text>
+        </Card.Body>
+      </Card>{" "}
+      <Card className="my-card">
+        <Card.Body>
+          <Card.Title className="row">
+            <div className="row">
+              <div className="col-md-6">
+                <p>2007</p>
+              </div>
+              <div className="col-md-5">
+                <p className="fs-2">Chemie Kein Abschluß</p>
+                <p className="fs-4">Philipps Universität, Marburg</p>
+              </div>
+            </div>
+          </Card.Title>
+          <Card.Text>
+            <div className="row">
+              <div className="col-md-6">
+                <p></p>
+              </div>
+              <div className="col-md-6">
+                <div>
+                  <p></p>
+                </div>
+                <ul>
+                  <li></li>
+                </ul>
+              </div>
+              <div>
+                <p></p>
+              </div>
+            </div>
+          </Card.Text>
         </Card.Body>
       </Card>
     </Container>

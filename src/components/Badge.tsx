@@ -1,9 +1,8 @@
-import { Badge as BadgeComponent } from "react-bootstrap";
-
 export interface Props {
   content: string;
+  bg: string | undefined;
 }
 
 export default function Badge(props: Props) {
-  return <BadgeComponent>{props.content}</BadgeComponent>;
+  return <div style={{ backgroundColor: props.bg }}>{props.content}</div>;
 }
