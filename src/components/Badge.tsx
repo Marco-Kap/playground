@@ -4,5 +4,15 @@ export interface Props {
 }
 
 export default function Badge(props: Props) {
-  return <div style={{ backgroundColor: props.bg }}>{props.content}</div>;
+  return (
+    <div
+      style={{
+        backgroundColor: props.bg,
+        width: "min-content",
+        padding: "0.4em",
+        borderRadius: "6%",
+      }}>
+      {props.content}
+    </div>
+  );
 }

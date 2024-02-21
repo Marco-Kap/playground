@@ -62,7 +62,7 @@ export default function Resume() {
               <div></div>
             </div>
           </Card.Text>
-          <Badge bg="red" content="hallp" />
+          {/* <Badge bg="#ee7c11" content="React" /> */}
         </Card.Body>
       </Card>
       <Card className="my-card">
