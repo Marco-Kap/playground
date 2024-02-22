@@ -11,7 +11,9 @@ export default function Badge(props: Props) {
         width: "min-content",
         padding: "0.4em",
         borderRadius: "6%",
-      }}>
+        margin: "0.8em",
+      }}
+    >
       {props.content}
     </div>
   );

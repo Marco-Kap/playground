@@ -59,10 +59,19 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div></div>
+              <div className="col-6 align-self-center">
+                <Badge bg="#ee7c11" content="Next.js" />
+                <Badge bg="#ee7c11" content="HTML5" />
+                <Badge bg="#ee7c11" content="CSS3" />
+                <Badge bg="#ee7c11" content="JavaSript" />
+                <Badge bg="#ee7c11" content="TypeScript" />
+                <Badge bg="#ee7c11" content="Windows Server" />
+                <Badge bg="#ee7c11" content="MySQL" />
+                <Badge bg="#ee7c11" content="Powershell" />
+                <Badge bg="#ee7c11" content="HTML5" />
+              </div>
             </div>
           </Card.Text>
-          {/* <Badge bg="#ee7c11" content="React" /> */}
         </Card.Body>
       </Card>
       <Card className="my-card">
@@ -215,6 +224,12 @@ export default function Resume() {
             </div>
           </Card.Text>
         </Card.Body>
+      </Card>
+      <hr></hr>
+      <Card>
+        <ul>
+          <li>Deutsch</li>
+        </ul>
       </Card>
     </Container>
   );
