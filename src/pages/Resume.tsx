@@ -43,7 +43,7 @@ export default function Resume() {
               </div>
               <div className="col-md-6">
                 <ul>
-                  <li>Erstellen der Webseite mit Next.js und Wordpress</li>
+                  <li>Planung, E</li>
                   <li>Windows Server Administration</li>
                   <li>Integration des Shopsystems</li>
                   <li>Anbinden der Webseite an Notdienst API des LAK</li>
@@ -59,7 +59,7 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div className="col-6 align-self-center">
+              <div className="col-6 d-flex align-self-center">
                 <Badge bg="#ee7c11" content="Next.js" />
                 <Badge bg="#ee7c11" content="HTML5" />
                 <Badge bg="#ee7c11" content="CSS3" />

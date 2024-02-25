@@ -1,13 +1,14 @@
 import { useRef } from "react";
 import * as THREE from "three";
+import Canvas from "../components/Canvas";
 
 export default function Home() {
   let width = "100%";
   let height = "auto";
 
-  const canvasRef = useRef(null);
+  // const canvasRef = useRef(null);
 
-  const scene = new THREE.Scene();
+  /* const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
   
   const renderer = new THREE.WebGLRenderer();
@@ -30,51 +31,9 @@ export default function Home() {
     renderer.render( scene, camera );
   }
   
-  animate();
+  animate(); */
 
-  /*const characters = [
-    "ζ",
-    "δ",
-    "μ",
-    "τ",
-    "Ξ",
-    "Ě",
-    "ɖ",
-    "ɗ",
-    "Ę",
-    "ɚ",
-    "ɜ",
-    "ĕ",
-    "Ġ",
-    "ɣ",
-    "ɤ",
-    "ĥ",
-    "ʯ",
-    "Ĳ",
-    "Ï",
-    "ì",
-    "Ĵ",
-    "ʞ",
-    "ķ",
-    "ŉ",
-    "ɯ",
-    "ɳ",
-    "ʠ",
-    "Š",
-    "ʆ",
-    "Ŧ",
-    "ʧ",
-    "þ",
-    "Ů",
-    "ʉ",
-    "Ũ",
-    "ż",
-    "ʓ",
-    "ʎ",
-    "ʐ",
-    "ʭ",
-    "ʆ",
-  ];
+  /*
 /*
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -100,8 +59,8 @@ export default function Home() {
 
   return (
     <>
-      <canvas ref={canvasRef} />
-      <div className="row ms-auto">
+      <Canvas />
+      {/* <div className="row ms-auto">
         <div className="col-md-4">
           <img
             src="src\assets\server-farm-monkey-repair-644x644.jpg"
@@ -117,7 +76,7 @@ export default function Home() {
           <h2>new day, new monkey</h2>
         </div>
       </div>
-      <hr></hr>
+      <hr></hr>*/}
     </>
   );
 }
