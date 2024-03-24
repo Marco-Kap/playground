@@ -9,13 +9,15 @@ export default function Badge(props: Props) {
       style={{
         backgroundColor: props.bg,
         width: "min-content",
-        padding: "0.4em",
+        paddingRight: "0.6em",
+        paddingLeft: "0.6em",
         borderRadius: "6%",
         margin: "0.8em",
         display: "flex",
         alignItems: "center",
-      }}>
-      {props.content}
+      }}
+    >
+      <span>{props.content}</span>
     </div>
   );
 }

@@ -15,7 +15,12 @@ export default function Resume() {
         </Col>
         <Col>
           <Card className="my-card mt-4">
-            <Card.Body>Hallo</Card.Body>
+            <Card.Body>
+              <Card.Text>
+                Hallo, mein Credo lautet Das UI muss schön sein und Code muss
+                sauber sein.
+              </Card.Text>
+            </Card.Body>
           </Card>
         </Col>
       </Row>
@@ -43,7 +48,8 @@ export default function Resume() {
               </div>
               <div className="col-md-6">
                 <ul>
-                  <li>Planung, E</li>
+                  <li>Planung und Erweiterung der Webseite</li>
+                  <li></li>
                   <li>Windows Server Administration</li>
                   <li>Integration des Shopsystems</li>
                   <li>Anbinden der Webseite an Notdienst API des LAK</li>
@@ -52,11 +58,10 @@ export default function Resume() {
                     ermöglichen
                   </li>
                   <li>
-                    Erstellen eines E-Mail Templates für den Massenversand
+                    Erstellen und saisonales Anpassen eines E-Mail Templates für
+                    den Massenversand
                   </li>
-                  <li>
-                    Beseitigen redundater Kundendatensätze in der Datenbank
-                  </li>
+                  <li>Datenbankverwaltung</li>
                 </ul>
               </div>
               <div className="col-6 d-flex align-self-center">
@@ -114,8 +119,16 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div>
-                <p></p>
+              <div className="col-6 d-flex align-self-center">
+                <Badge bg="#ee7c11" content="React" />
+                <Badge bg="#ee7c11" content="React-Native" />
+                <Badge bg="#ee7c11" content="HTML5" />
+                <Badge bg="#ee7c11" content="CSS3" />
+                <Badge bg="#ee7c11" content="JavaSript" />
+                <Badge bg="#ee7c11" content="TypeScript" />
+                <Badge bg="#ee7c11" content="Wordpress" />
+                <Badge bg="#ee7c11" content="GraphQL" />
+                <Badge bg="#ee7c11" content="HTML5" />
               </div>
             </div>
           </Card.Text>
@@ -145,12 +158,7 @@ export default function Resume() {
                 <div>
                   <p></p>
                 </div>
-                <ul>
-                  <li>
-                    Content Management für die Webseite von Daicy mittels
-                    October UMS
-                  </li>
-                </ul>
+                <ul></ul>
               </div>
               <div>
                 <p></p>
@@ -226,10 +234,27 @@ export default function Resume() {
         </Card.Body>
       </Card>
       <hr></hr>
-      <Card>
-        <ul>
-          <li>Deutsch</li>
-        </ul>
+      <Card className="my-card">
+        <h2>Fertigkeiten</h2>
+      </Card>
+      <Card className="my-card">
+        <Card.Body>
+          <Card.Title>
+            <h2>Sprachen</h2>
+          </Card.Title>
+          <Card.Text>
+            <div className="row">
+              <div className="col-md-6">
+                <ul>
+                  <li>Deutsch</li>
+                  <li>Englisch</li>
+                </ul>
+              </div>
+              <div className="col-md-4">Verhandlungssicher</div>
+              <div>Muttersprache</div>
+            </div>
+          </Card.Text>
+        </Card.Body>
       </Card>
     </Container>
   );

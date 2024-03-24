@@ -1,10 +1,8 @@
-import { useRef } from "react";
-import * as THREE from "three";
 import Canvas from "../components/Canvas";
 
 export default function Home() {
-  let width = "100%";
-  let height = "auto";
+  // let width = "100%";
+  // let height = "auto";
 
   // const canvasRef = useRef(null);
 

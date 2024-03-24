@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<container>
+    <code>OK</code>
+    <created>2024-03-13T16:34:24.436+01:00</created>
+    <descr>Standort: 51.2770468,8.8723922</descr>
+    <entries>
+        <entry>
+            <id>6a5889bb0190d0211a991f47bb19a777</id>
+            <from>2024-03-12T09:00:00+01:00</from>
+            <to>2024-03-13T09:00:00+01:00</to>
+            <name>Adler Apotheke</name>
+            <street>Wildunger Str. 9</street>
+            <zipCode>34513</zipCode>
+            <location>Waldeck</location>
+            <subLocation/>
+            <phone>05634/309</phone>
+            <lat>51.2438487</lat>
+            <lon>9.0090217</lon>
+        </entry>
+        <entry>
+            <id>49b8b4f95f02e055801da3b4f58e28b7</id>
+            <from>2024-03-12T09:00:00+01:00</from>
+            <to>2024-03-13T09:00:00+01:00</to>
+            <name>Upland Apotheke</name>
+            <street>Neuer Weg 7</street>
+            <zipCode>34508</zipCode>
+            <location>Willingen</location>
+            <subLocation/>
+            <phone>05632/69344</phone>
+            <lat>51.2946949</lat>
+            <lon>8.6108747</lon>
+        </entry>
+        <entry>
+            <id>1e056d2b0ebd5c878c550da6ac5d3724</id>
+            <from>2024-03-13T09:00:00+01:00</from>
+            <to>2024-03-14T09:00:00+01:00</to>
+            <name>Apotheke am Berndorfer Tor</name>
+            <street>Am Berndorfer Tor 5</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/2088</phone>
+            <lat>51.275897</lat>
+            <lon>8.8707127</lon>
+        </entry>
+        <entry>
+            <id>94f6d7e04a4d452035300f18b984988c</id>
+            <from>2024-03-13T09:00:00+01:00</from>
+            <to>2024-03-14T09:00:00+01:00</to>
+            <name>Beyl'sche Apotheke OHG</name>
+            <street>Kasseler Str. 61</street>
+            <zipCode>34308</zipCode>
+            <location>Bad Emstal</location>
+            <subLocation/>
+            <phone>05624/99770</phone>
+            <lat>51.2445261</lat>
+            <lon>9.261224</lon>
+        </entry>
+        <entry>
+            <id>6d0f846348a856321729a2f36734d1a7</id>
+            <from>2024-03-14T09:00:00+01:00</from>
+            <to>2024-03-15T09:00:00+01:00</to>
+            <name>Hirsch Apotheke</name>
+            <street>Prof.-Kuemmell-Str. 2</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/2545</phone>
+            <lat>51.2732798</lat>
+            <lon>8.8711143</lon>
+        </entry>
+        <entry>
+            <id>83f2550373f2f19492aa30fbd5b57512</id>
+            <from>2024-03-14T09:00:00+01:00</from>
+            <to>2024-03-15T09:00:00+01:00</to>
+            <name>Sonnen Apotheke</name>
+            <street>Kurfürstenstr. 47</street>
+            <zipCode>34466</zipCode>
+            <location>Wolfhagen</location>
+            <subLocation/>
+            <phone>05692/98870</phone>
+            <lat>51.3218585</lat>
+            <lon>9.1812466</lon>
+        </entry>
+        <entry>
+            <id>98f13708210194c475687be6106a3b84</id>
+            <from>2024-03-15T09:00:00+01:00</from>
+            <to>2024-03-16T09:00:00+01:00</to>
+            <name>Kur Apotheke</name>
+            <street>Bahnhofstr. 5</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/89170</phone>
+            <lat>51.3803487</lat>
+            <lon>9.0143635</lon>
+        </entry>
+        <entry>
+            <id>3ad7c2ebb96fcba7cda0cf54a2e802f5</id>
+            <from>2024-03-15T09:00:00+01:00</from>
+            <to>2024-03-16T09:00:00+01:00</to>
+            <name>Eder Apotheke</name>
+            <street>Bahnhofstr. 26</street>
+            <zipCode>35066</zipCode>
+            <location>Frankenberg</location>
+            <subLocation/>
+            <phone>06451/1811</phone>
+            <lat>51.057456</lat>
+            <lon>8.7942501</lon>
+        </entry>
+        <entry>
+            <id>8d3369c4c086f236fabf61d614a32818</id>
+            <from>2024-03-16T09:00:00+01:00</from>
+            <to>2024-03-17T09:00:00+01:00</to>
+            <name>Brunnen Apotheke</name>
+            <street>Warburger Str. 6 A</street>
+            <zipCode>34471</zipCode>
+            <location>Volkmarsen</location>
+            <subLocation/>
+            <phone>05693/989191</phone>
+            <lat>51.4151911</lat>
+            <lon>9.1210124</lon>
+        </entry>
+        <entry>
+            <id>6974ce5ac660610b44d9b9fed0ff9548</id>
+            <from>2024-03-16T09:00:00+01:00</from>
+            <to>2024-03-17T09:00:00+01:00</to>
+            <name>Löwen Apotheke</name>
+            <street>Brunnenallee 8</street>
+            <zipCode>34537</zipCode>
+            <location>Bad Wildungen</location>
+            <subLocation/>
+            <phone>05621/2260</phone>
+            <lat>51.1173718</lat>
+            <lon>9.1177915</lon>
+        </entry>
+        <entry>
+            <id>e6384711491713d29bc63fc5eeb5ba4f</id>
+            <from>2024-03-17T09:00:00+01:00</from>
+            <to>2024-03-18T09:00:00+01:00</to>
+            <name>Eisenberg Apotheke</name>
+            <street>Flechtdorferstr. 3 A</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/4021</phone>
+            <lat>51.276996</lat>
+            <lon>8.8704993</lon>
+        </entry>
+        <entry>
+            <id>83f2550373f2f19492aa30fbd5b57512</id>
+            <from>2024-03-17T09:00:00+01:00</from>
+            <to>2024-03-18T09:00:00+01:00</to>
+            <name>Sonnen Apotheke</name>
+            <street>Kurfürstenstr. 47</street>
+            <zipCode>34466</zipCode>
+            <location>Wolfhagen</location>
+            <subLocation/>
+            <phone>05692/98870</phone>
+            <lat>51.3218585</lat>
+            <lon>9.1812466</lon>
+        </entry>
+        <entry>
+            <id>98f13708210194c475687be6106a3b84</id>
+            <from>2024-03-18T09:00:00+01:00</from>
+            <to>2024-03-19T09:00:00+01:00</to>
+            <name>Kur Apotheke</name>
+            <street>Bahnhofstr. 5</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/89170</phone>
+            <lat>51.3803487</lat>
+            <lon>9.0143635</lon>
+        </entry>
+        <entry>
+            <id>258be18e31c8188555c2ff05b4d542c3</id>
+            <from>2024-03-18T09:00:00+01:00</from>
+            <to>2024-03-19T09:00:00+01:00</to>
+            <name>Linden Apotheke</name>
+            <street>Kasseler Str. 29</street>
+            <zipCode>34560</zipCode>
+            <location>Fritzlar</location>
+            <subLocation/>
+            <phone>05622/915010</phone>
+            <lat>51.1340233</lat>
+            <lon>9.2738701</lon>
+        </entry>
+        <entry>
+            <id>6a5889bb0190d0211a991f47bb19a777</id>
+            <from>2024-03-19T09:00:00+01:00</from>
+            <to>2024-03-20T09:00:00+01:00</to>
+            <name>Adler Apotheke</name>
+            <street>Wildunger Str. 9</street>
+            <zipCode>34513</zipCode>
+            <location>Waldeck</location>
+            <subLocation/>
+            <phone>05634/309</phone>
+            <lat>51.2438487</lat>
+            <lon>9.0090217</lon>
+        </entry>
+        <entry>
+            <id>0c8ce55163055c4da50a81e0a273468c</id>
+            <from>2024-03-19T09:00:00+01:00</from>
+            <to>2024-03-20T09:00:00+01:00</to>
+            <name>Berg Apotheke</name>
+            <street>Bergstr. 1</street>
+            <zipCode>34508</zipCode>
+            <location>Willingen</location>
+            <subLocation/>
+            <phone>05632/6699</phone>
+            <lat>51.2968452</lat>
+            <lon>8.6101912</lon>
+        </entry>
+        <entry>
+            <id>0c9ebb2ded806d7ffda75cd0b95eb70c</id>
+            <from>2024-03-20T09:00:00+01:00</from>
+            <to>2024-03-21T09:00:00+01:00</to>
+            <name>Upland Apotheke in Usseln</name>
+            <street>Korbacher Str. 3</street>
+            <zipCode>34508</zipCode>
+            <location>Willingen</location>
+            <subLocation/>
+            <phone>05632/94930</phone>
+            <lat>51.2825989</lat>
+            <lon>8.6644574</lon>
+        </entry>
+        <entry>
+            <id>1f0e3dad99908345f7439f8ffabdffc4</id>
+            <from>2024-03-20T09:00:00+01:00</from>
+            <to>2024-03-21T09:00:00+01:00</to>
+            <name>Hof Apotheke Arolsen</name>
+            <street>Kirchplatz 2</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/3008</phone>
+            <lat>51.379903</lat>
+            <lon>9.0160393</lon>
+        </entry>
+        <entry>
+            <id>83adc9225e4deb67d7ce42d58fe5157c</id>
+            <from>2024-03-21T09:00:00+01:00</from>
+            <to>2024-03-22T09:00:00+01:00</to>
+            <name>Edersee Apotheke</name>
+            <street>Schlossstraße 2</street>
+            <zipCode>34516</zipCode>
+            <location>Vöhl</location>
+            <subLocation/>
+            <phone>05635/214</phone>
+            <lat>51.2050094</lat>
+            <lon>8.9439195</lon>
+        </entry>
+        <entry>
+            <id>0efbe98067c6c73dba1250d2beaa81f9</id>
+            <from>2024-03-21T09:00:00+01:00</from>
+            <to>2024-03-22T09:00:00+01:00</to>
+            <name>Akazien Apotheke</name>
+            <street>Bahnhofstraße 16</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/2074</phone>
+            <lat>51.3806709</lat>
+            <lon>9.0132902</lon>
+        </entry>
+        <entry>
+            <id>3e89ebdb49f712c7d90d1b39e348bbbf</id>
+            <from>2024-03-22T09:00:00+01:00</from>
+            <to>2024-03-23T09:00:00+01:00</to>
+            <name>Bären Apotheke</name>
+            <street>Solinger Str. 28</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/7370</phone>
+            <lat>51.2709888</lat>
+            <lon>8.8892843</lon>
+        </entry>
+        <entry>
+            <id>60243f9b1ac2dba11ff8131c8f4431e0</id>
+            <from>2024-03-22T09:00:00+01:00</from>
+            <to>2024-03-23T09:00:00+01:00</to>
+            <name>Nationalpark Apotheke</name>
+            <street>Rieschstraße 10</street>
+            <zipCode>35110</zipCode>
+            <location>Frankenau</location>
+            <subLocation/>
+            <phone>06455/7599444</phone>
+            <lat>51.0921458</lat>
+            <lon>8.9342912</lon>
+        </entry>
+        <entry>
+            <id>49b8b4f95f02e055801da3b4f58e28b7</id>
+            <from>2024-03-23T09:00:00+01:00</from>
+            <to>2024-03-24T09:00:00+01:00</to>
+            <name>Upland Apotheke</name>
+            <street>Neuer Weg 7</street>
+            <zipCode>34508</zipCode>
+            <location>Willingen</location>
+            <subLocation/>
+            <phone>05632/69344</phone>
+            <lat>51.2946949</lat>
+            <lon>8.6108747</lon>
+        </entry>
+        <entry>
+            <id>2b3bf3eee2475e03885a110e9acaab61</id>
+            <from>2024-03-23T09:00:00+01:00</from>
+            <to>2024-03-24T09:00:00+01:00</to>
+            <name>Rosen Apotheke</name>
+            <street>Schützeberger Str. 83</street>
+            <zipCode>34466</zipCode>
+            <location>Wolfhagen</location>
+            <subLocation/>
+            <phone>05692/2200</phone>
+            <lat>51.3286948</lat>
+            <lon>9.1734259</lon>
+        </entry>
+        <entry>
+            <id>1f0e3dad99908345f7439f8ffabdffc4</id>
+            <from>2024-03-24T09:00:00+01:00</from>
+            <to>2024-03-25T09:00:00+01:00</to>
+            <name>Hof Apotheke Arolsen</name>
+            <street>Kirchplatz 2</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/3008</phone>
+            <lat>51.379903</lat>
+            <lon>9.0160393</lon>
+        </entry>
+        <entry>
+            <id>0f49c89d1e7298bb9930789c8ed59d48</id>
+            <from>2024-03-24T09:00:00+01:00</from>
+            <to>2024-03-25T09:00:00+01:00</to>
+            <name>Edertal Apotheke</name>
+            <street>Schloßstraße 19 a</street>
+            <zipCode>34549</zipCode>
+            <location>Edertal</location>
+            <subLocation/>
+            <phone>05623/4645</phone>
+            <lat>51.1675057</lat>
+            <lon>9.1356737</lon>
+        </entry>
+        <entry>
+            <id>bc573864331a9e42e4511de6f678aa83</id>
+            <from>2024-03-25T09:00:00+01:00</from>
+            <to>2024-03-26T09:00:00+01:00</to>
+            <name>Ahorn Apotheke</name>
+            <street>Bahnhofstraße 7</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/4040</phone>
+            <lat>51.2768456</lat>
+            <lon>8.8720421</lon>
+        </entry>
+        <entry>
+            <id>d6c651ddcd97183b2e40bc464231c962</id>
+            <from>2024-03-25T09:00:00+01:00</from>
+            <to>2024-03-26T09:00:00+01:00</to>
+            <name>Kloster Apotheke</name>
+            <street>Poststraße 7</street>
+            <zipCode>35114</zipCode>
+            <location>Haina (Kloster)</location>
+            <subLocation/>
+            <phone>06456/336</phone>
+            <lat>51.0262446</lat>
+            <lon>8.9719511</lon>
+        </entry>
+        <entry>
+            <id>0efbe98067c6c73dba1250d2beaa81f9</id>
+            <from>2024-03-26T09:00:00+01:00</from>
+            <to>2024-03-27T09:00:00+01:00</to>
+            <name>Akazien Apotheke</name>
+            <street>Bahnhofstraße 16</street>
+            <zipCode>34454</zipCode>
+            <location>Bad Arolsen</location>
+            <subLocation/>
+            <phone>05691/2074</phone>
+            <lat>51.3806709</lat>
+            <lon>9.0132902</lon>
+        </entry>
+        <entry>
+            <id>a9078e8653368c9c291ae2f8b74012e7</id>
+            <from>2024-03-26T09:00:00+01:00</from>
+            <to>2024-03-27T09:00:00+01:00</to>
+            <name>Apotheke Rosenthal</name>
+            <street>Am Lindenrain 3</street>
+            <zipCode>35119</zipCode>
+            <location>Rosenthal</location>
+            <subLocation/>
+            <phone>06458/1234</phone>
+            <lat>50.97518</lat>
+            <lon>8.86463</lon>
+        </entry>
+        <entry>
+            <id>6d0f846348a856321729a2f36734d1a7</id>
+            <from>2024-03-27T09:00:00+01:00</from>
+            <to>2024-03-28T09:00:00+01:00</to>
+            <name>Hirsch Apotheke</name>
+            <street>Prof.-Kuemmell-Str. 2</street>
+            <zipCode>34497</zipCode>
+            <location>Korbach</location>
+            <subLocation/>
+            <phone>05631/2545</phone>
+            <lat>51.2732798</lat>
+            <lon>8.8711143</lon>
+        </entry>
+        <entry>
+            <id>fb508ef074ee78a0e58c68be06d8a2eb</id>
+            <from>2024-03-27T09:00:00+01:00</from>
+            <to>2024-03-28T09:00:00+01:00</to>
+            <name>Burg Apotheke</name>
+            <street>Steinweg 2</street>
+            <zipCode>34471</zipCode>
+            <location>Volkmarsen</location>
+            <subLocation/>
+            <phone>05693/995033</phone>
+            <lat>51.4096699</lat>
+            <lon>9.1181856</lon>
+        </entry>
+    </entries>
+</container>
