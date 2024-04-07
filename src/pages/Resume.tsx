@@ -1,34 +1,34 @@
-import { Card, Container, Image, Row, Col } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import Badge from "../components/Badge";
 
 export default function Resume() {
   return (
-    <Container>
+    <div className="container">
       <Row>
         <Col>
           <Image
-            src="src/assets/bewerbungsfoto-quadratisch.jpg"
+            src="./public/bewerbungsfoto-quadratisch.jpg"
             width={340}
             style={{ borderRadius: "50%" }}
             alt="bewerbungsfoto"
           />
         </Col>
         <Col>
-          <Card className="my-card mt-4">
-            <Card.Body>
-              <Card.Text>
+          <div className="my-card mt-4">
+            <div className="card-body">
+              <div className="">
                 Hallo, mein Credo lautet Das UI muss schön sein und Code muss
                 sauber sein.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+              </div>
+            </div>
+          </div>
         </Col>
       </Row>
       <h2 style={{}}>Berufserfahrung</h2>
       <hr></hr>
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title>
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title">
             <div className="row">
               <div className="col-md-6">
                 <p>2022/08 - Heute</p>
@@ -36,12 +36,11 @@ export default function Resume() {
               <div className="col-md-5">
                 <p className="fs-2">Systemadministrator</p>
                 <p className="fs-4">Ahorn-Apotheke, Korbach</p>
-                {"  "}
               </div>
             </div>
-          </Card.Title>
+          </div>
           <hr></hr>
-          <Card.Text>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <p>Meine momentanen Aufgaben umfassen:</p>
@@ -64,7 +63,7 @@ export default function Resume() {
                   <li>Datenbankverwaltung</li>
                 </ul>
               </div>
-              <div className="col-6 d-flex align-self-center">
+              <div className="col-6 d-flex align-self-center row">
                 <Badge bg="#ee7c11" content="Next.js" />
                 <Badge bg="#ee7c11" content="HTML5" />
                 <Badge bg="#ee7c11" content="CSS3" />
@@ -76,12 +75,12 @@ export default function Resume() {
                 <Badge bg="#ee7c11" content="HTML5" />
               </div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title>
+          </div>
+        </div>
+      </div>
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title">
             <div className="row">
               <div className="col-md-6">
                 <p>2020/04 - 2022/02</p>
@@ -92,9 +91,9 @@ export default function Resume() {
                 {"  "}
               </div>
             </div>
-          </Card.Title>
+          </div>
           <hr></hr>
-          <Card.Text>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <p>Meine Aufgaben umfassten das Folgende:</p>
@@ -115,11 +114,11 @@ export default function Resume() {
                   <li>Unterstützung bei Codereviews</li>
                   <li>
                     Content Management für die Webseite von Daicy mittels
-                    October UMS
+                    October CMS
                   </li>
                 </ul>
               </div>
-              <div className="col-6 d-flex align-self-center">
+              <div className="col-6 d-flex align-self-center row">
                 <Badge bg="#ee7c11" content="React" />
                 <Badge bg="#ee7c11" content="React-Native" />
                 <Badge bg="#ee7c11" content="HTML5" />
@@ -131,14 +130,14 @@ export default function Resume() {
                 <Badge bg="#ee7c11" content="HTML5" />
               </div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+          </div>
+        </div>
+      </div>
       <h2>Bildungsweg</h2>
       <hr></hr>
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title className="row">
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title row">
             <div className="row">
               <div className="col-md-6">
                 <p>2020</p>
@@ -148,8 +147,8 @@ export default function Resume() {
                 <p className="fs-4">Deutsche Angestellten Akademie, Marburg</p>
               </div>
             </div>
-          </Card.Title>
-          <Card.Text>
+          </div>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <p></p>
@@ -164,12 +163,12 @@ export default function Resume() {
                 <p></p>
               </div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title className="row">
+          </div>
+        </div>
+      </div>
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title row">
             <div className="row">
               <div className="col-md-6">
                 <p>2018</p>
@@ -179,8 +178,8 @@ export default function Resume() {
                 <p className="fs-4">Philipps Universität, Marburg</p>
               </div>
             </div>
-          </Card.Title>
-          <Card.Text>
+          </div>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <p></p>
@@ -197,12 +196,12 @@ export default function Resume() {
                 <p></p>
               </div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>{" "}
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title className="row">
+          </div>
+        </div>
+      </div>{" "}
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title row">
             <div className="row">
               <div className="col-md-6">
                 <p>2007</p>
@@ -212,8 +211,8 @@ export default function Resume() {
                 <p className="fs-4">Philipps Universität, Marburg</p>
               </div>
             </div>
-          </Card.Title>
-          <Card.Text>
+          </div>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <p></p>
@@ -230,19 +229,19 @@ export default function Resume() {
                 <p></p>
               </div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+          </div>
+        </div>
+      </div>
       <hr></hr>
-      <Card className="my-card">
+      <div className="card my-card">
         <h2>Fertigkeiten</h2>
-      </Card>
-      <Card className="my-card">
-        <Card.Body>
-          <Card.Title>
+      </div>
+      <div className="card my-card">
+        <div className="card-body">
+          <div className="card-title">
             <h2>Sprachen</h2>
-          </Card.Title>
-          <Card.Text>
+          </div>
+          <div className="">
             <div className="row">
               <div className="col-md-6">
                 <ul>
@@ -253,9 +252,9 @@ export default function Resume() {
               <div className="col-md-4">Verhandlungssicher</div>
               <div>Muttersprache</div>
             </div>
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }

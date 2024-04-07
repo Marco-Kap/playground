@@ -129,17 +129,21 @@ div {
 }*/
 
 .my-card {
-  background-color: #474747;
+  background-color: #474747 !important;
   width: "18rem";
   border-radius: 1.4%;
   border-color: #ee7c11; /*nice purple #5a11ee;*/
   margin-bottom: 1em;
   color: #ffffff;
 }
-
+.jump {
+  transform: translate3d(3, 1, 1);
+}
 .link {
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
   text-decoration: none;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 }
 .link:hover {
   color: #fffef0;

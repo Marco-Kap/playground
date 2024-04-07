@@ -13,37 +13,29 @@ export default function Layout() {
         bg="dark"
         data-bs-theme="dark"
         expand="lg"
-        className="bg-body-tertiary">
+        className="bg-body-tertiary"
+      >
         <Container className=" bg-body-tertiary">
           <Navbar.Toggle
-            className=" bg-body-tertiary"
+            className=" bg-body-tertiary mb-2"
             aria-controls="responsive-navbar-nav"
           />
           <Navbar.Collapse
             className=" bg-body-tertiary"
             id="responsive-navbar-nav"
-            style={{ justifyContent: "center" }}>
+            style={{ justifyContent: "center" }}
+          >
             <Nav className=" bg-body-tertiary">
-              <Nav.Link>
-                <Link className="link" to="/resume">
-                  Resume
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link className="link" to="/">
-                  Home
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link className="link" to="/">
-                  Portfolio
-                </Link>
-              </Nav.Link>
-              <Nav.Link
-                className="link"
-                href="mailto:marco-kappeller.bewerbung@gmx.de">
-                Contact
-              </Nav.Link>
+              <Link className="link" to="/resume">
+                Resume
+              </Link>
+              <Link className="link" to="/">
+                Home
+              </Link>
+              <Link className="link" to="/">
+                Portfolio
+              </Link>
+              Contact
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -6,11 +6,13 @@ export interface Props {
 export default function Badge(props: Props) {
   return (
     <div
+      className="col-lg-2"
       style={{
         backgroundColor: props.bg,
-        width: "min-content",
-        paddingRight: "0.6em",
-        paddingLeft: "0.6em",
+
+        // paddingRight: "0.6em",
+        // paddingLeft: "0.6em",
+        padding: "0.4em",
         borderRadius: "6%",
         margin: "0.8em",
         display: "flex",
