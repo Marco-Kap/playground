@@ -1,4 +1,4 @@
-import { Image, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Badge from "../components/Badge";
 
 export default function Resume() {
