@@ -7,7 +7,7 @@ export default function Resume() {
       <Row>
         <Col>
           <Image
-            src="./public/bewerbungsfoto-quadratisch.jpg"
+            src="public/bewerbungsfoto-quadratisch.jpg"
             width={340}
             style={{ borderRadius: "50%" }}
             alt="bewerbungsfoto"
