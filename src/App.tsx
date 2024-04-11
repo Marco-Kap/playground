@@ -11,9 +11,9 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/playground" element={<Home />} />
           <Route path="/" element={<Home />} />
-          <Route path="playground/portfolio" element={<Home />} />
+          <Route path="/playground/portfolio" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="playground/resume" element={<Resume />} />
+          <Route path="/playground/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
