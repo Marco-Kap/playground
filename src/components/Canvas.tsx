@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Canvas() {
   return (
     <>
-      <a href="/resume">
+      <Link to="/resume">
         <div className="canvas">
           <div className="orbit orbit3">
             <div id="planet1" className="svg1 svg"></div>
@@ -19,7 +21,7 @@ function Canvas() {
             <div className="svg svg1"></div>
           </div>
         </div>
-      </a>
+      </Link>
     </>
   );
 }
