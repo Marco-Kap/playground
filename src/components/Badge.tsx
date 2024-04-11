@@ -6,7 +6,7 @@ export interface Props {
 export default function Badge(props: Props) {
   return (
     <div
-      className="col-lg-2"
+      className="col-md-2"
       style={{
         backgroundColor: props.bg,
 
@@ -17,8 +17,7 @@ export default function Badge(props: Props) {
         margin: "0.8em",
         display: "flex",
         alignItems: "center",
-      }}
-    >
+      }}>
       <span>{props.content}</span>
     </div>
   );

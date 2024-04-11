@@ -14,14 +14,14 @@ export default function Resume() {
           />
         </Col>
         <Col>
-          <div className="my-card mt-4">
+          {/* <div className="my-card mt-4">
             <div className="card-body">
               <div className="">
                 Hallo, mein Credo lautet Das UI muss schön sein und Code muss
                 sauber sein.
               </div>
             </div>
-          </div>
+          </div> */}
         </Col>
       </Row>
       <h2 style={{}}>Berufserfahrung</h2>
@@ -47,8 +47,7 @@ export default function Resume() {
               </div>
               <div className="col-md-6">
                 <ul>
-                  <li>Planung und Erweiterung der Webseite</li>
-                  <li></li>
+                  <li>Planen, Erstellen und Erweitern der Webseite</li>
                   <li>Windows Server Administration</li>
                   <li>Integration des Shopsystems</li>
                   <li>Anbinden der Webseite an Notdienst API des LAK</li>
@@ -63,7 +62,7 @@ export default function Resume() {
                   <li>Datenbankverwaltung</li>
                 </ul>
               </div>
-              <div className="col-6 d-flex align-self-center row">
+              <div className="col-6 d-flex align-self-center ">
                 <Badge bg="#ee7c11" content="Next.js" />
                 <Badge bg="#ee7c11" content="HTML5" />
                 <Badge bg="#ee7c11" content="CSS3" />
@@ -118,7 +117,7 @@ export default function Resume() {
                   </li>
                 </ul>
               </div>
-              <div className="col-6 d-flex align-self-center row">
+              <div className="col-6 d-flex align-self-center">
                 <Badge bg="#ee7c11" content="React" />
                 <Badge bg="#ee7c11" content="React-Native" />
                 <Badge bg="#ee7c11" content="HTML5" />
@@ -174,7 +173,7 @@ export default function Resume() {
                 <p>2018</p>
               </div>
               <div className="col-md-5">
-                <p className="fs-2">Soziologie, Kein Abschluß</p>
+                <p className="fs-2">Diplom Soziologie, Kein Abschluß</p>
                 <p className="fs-4">Philipps Universität, Marburg</p>
               </div>
             </div>
@@ -188,9 +187,7 @@ export default function Resume() {
                 <div>
                   <p></p>
                 </div>
-                <ul>
-                  <li></li>
-                </ul>
+                <ul></ul>
               </div>
               <div>
                 <p></p>
@@ -207,7 +204,7 @@ export default function Resume() {
                 <p>2007</p>
               </div>
               <div className="col-md-5">
-                <p className="fs-2">Chemie Kein Abschluß</p>
+                <p className="fs-2">Diplom Chemie, Kein Abschluß</p>
                 <p className="fs-4">Philipps Universität, Marburg</p>
               </div>
             </div>
@@ -221,9 +218,7 @@ export default function Resume() {
                 <div>
                   <p></p>
                 </div>
-                <ul>
-                  <li></li>
-                </ul>
+                <ul></ul>
               </div>
               <div>
                 <p></p>
@@ -234,7 +229,30 @@ export default function Resume() {
       </div>
       <hr></hr>
       <div className="card my-card">
-        <h2>Fertigkeiten</h2>
+        <div className="card-body">
+          {" "}
+          <div className="card-title">
+            <h2>Fertigkeiten</h2>
+          </div>
+          <div
+            className="my-card row "
+            style={{ padding: "0em", margin: "0em" }}>
+            {" "}
+            <Badge bg="#ee7c11" content="React" />
+            <Badge bg="#ee7c11" content="React-Native" />
+            <Badge bg="#ee7c11" content="HTML5" />
+            <Badge bg="#ee7c11" content="CSS3" />
+            <Badge bg="#ee7c11" content="JavaSript" />
+            <Badge bg="#ee7c11" content="TypeScript" />
+            <Badge bg="#ee7c11" content="Wordpress" />
+            <Badge bg="#ee7c11" content="GraphQL" />
+            <Badge bg="#ee7c11" content="HTML5" />
+            <Badge bg="#ee7c11" content="Next.js" />
+            <Badge bg="#ee7c11" content="MySQL" />
+            <Badge bg="#ee7c11" content="Windows Server" />
+            <Badge bg="#ee7c11" content="Powershell" />
+          </div>
+        </div>
       </div>
       <div className="card my-card">
         <div className="card-body">
@@ -249,8 +267,12 @@ export default function Resume() {
                   <li>Englisch</li>
                 </ul>
               </div>
-              <div className="col-md-4">Verhandlungssicher</div>
-              <div>Muttersprache</div>
+              <div className="col-md-4 row">
+                <ul>
+                  <li style={{ listStyleType: "none" }}>Muttersprache</li>
+                  <li style={{ listStyleType: "none" }}>Verhandlungssicher</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
