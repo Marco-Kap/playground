@@ -1,4 +1,4 @@
-import { Row, Col } from "react-bootstrap";
+import { Image, Row, Col } from "react-bootstrap";
 import Badge from "../components/Badge";
 
 export default function Resume() {
@@ -6,12 +6,12 @@ export default function Resume() {
     <div className="container">
       <Row>
         <Col>
-          <img
+          {/* <Image
             src="/public/bewerbungsfoto-quadratisch.jpg"
             width={340}
             style={{ borderRadius: "50%" }}
             alt="bewerbungsfoto"
-          />
+          /> */}
         </Col>
         <Col>
           {/* <div className="my-card mt-4">

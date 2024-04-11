@@ -24,7 +24,7 @@ export default function Layout() {
             id="responsive-navbar-nav"
             style={{ justifyContent: "center" }}>
             <Nav className=" bg-body-tertiary">
-              <Link className="link" to="/playground/resume">
+              <Link className="link" to="/resume">
                 Resume
               </Link>
               <Link className="link" to="/">
