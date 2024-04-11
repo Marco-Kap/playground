@@ -71,7 +71,6 @@ export default function Resume() {
                 <Badge bg="#ee7c11" content="Windows Server" />
                 <Badge bg="#ee7c11" content="MySQL" />
                 <Badge bg="#ee7c11" content="Powershell" />
-                <Badge bg="#ee7c11" content="HTML5" />
               </div>
             </div>
           </div>
@@ -126,7 +125,6 @@ export default function Resume() {
                 <Badge bg="#ee7c11" content="TypeScript" />
                 <Badge bg="#ee7c11" content="Wordpress" />
                 <Badge bg="#ee7c11" content="GraphQL" />
-                <Badge bg="#ee7c11" content="HTML5" />
               </div>
             </div>
           </div>
@@ -246,7 +244,7 @@ export default function Resume() {
             <Badge bg="#ee7c11" content="TypeScript" />
             <Badge bg="#ee7c11" content="Wordpress" />
             <Badge bg="#ee7c11" content="GraphQL" />
-            <Badge bg="#ee7c11" content="HTML5" />
+            <Badge bg="#ee7c11" content="Barrierefreiheit" />
             <Badge bg="#ee7c11" content="Next.js" />
             <Badge bg="#ee7c11" content="MySQL" />
             <Badge bg="#ee7c11" content="Windows Server" />
