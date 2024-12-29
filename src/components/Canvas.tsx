@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import Tetris from "./Tetris";
 
 function Canvas() {
   return (
     <>
-      <Link to="/resume">
+    <Tetris/>
+      {/* <Link to="/resume">
         <div className="canvas">
           <div className="orbit orbit3">
             <div id="planet1" className="svg1 svg"></div>
@@ -21,7 +23,7 @@ function Canvas() {
             <div className="svg svg1"></div>
           </div>
         </div>
-      </Link>
+      </Link> */}
     </>
   );
 }

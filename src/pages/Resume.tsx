@@ -63,7 +63,7 @@ export default function Resume() {
                 </ul>
               </div>
               <div className="col-6 d-flex align-self-center ">
-                <Badge bg="#ee7c11" content="Next.js" />
+                <Badge bg="#ee7c11" content="React" />
                 <Badge bg="#ee7c11" content="HTML5" />
                 <Badge bg="#ee7c11" content="CSS3" />
                 <Badge bg="#ee7c11" content="JavaSript" />

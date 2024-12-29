@@ -1,7 +1,7 @@
 function NotFound() {
   return (
     <div>
-      <img src="./public/server-farm-monkey-repair-644x644.jpg" />
+      <img src="banana.png  " />
       <p>i´m working on it</p>
     </div>
   );

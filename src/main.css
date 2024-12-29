@@ -96,19 +96,19 @@ li {
 
 @keyframes rotate1 {
   from {
-    transform: translate(-50%, -50%) rotate(0deg) translateX(14vh) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(360deg) translateX(14vh) rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg) translateX(14vh)
+    transform: translate(-50%, -50%) rotate(0deg) translateX(14vh)
       rotate(-360deg);
   }
 }
 @keyframes rotate3 {
   from {
-    transform: translate(-50%, -50%) rotate(0deg) translateX(20vh) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(360deg) translateX(20vh) rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg) translateX(20vh)
+    transform: translate(-50%, -50%) rotate(0deg) translateX(20vh)
       rotate(-360deg);
   }
 }
