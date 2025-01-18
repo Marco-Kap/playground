@@ -24,6 +24,7 @@ li {
 .circle1 {
   border-radius: 50%;
   background-color: #ee7c11;
+  color:#fffa64;
   width: 10vh;
   height: 10vh;
   top: 60%;
